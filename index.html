@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meshal Okairy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./resources/CV-icon-white.svg" />
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <div class="site-header__brand">
+        <img
+          src="./resources/Meshal_Okairy.png"
+          alt="Meshal Okairy"
+          class="site-header__profile"
+        />
+        <p class="site-header__title">Meshal Okairy | IT Student</p>
+      </div>
+
+      <nav class="site-header__nav">
+        <a href="index.html" class="nav-link" aria-current="page">Home</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="social-links">
+        <a href="https://github.com/MOKAIRY" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Visit Meshal's GitHub profile">
+          <img src="./resources/github.svg" alt="" role="presentation" />
+        </a>
+        <a href="https://www.linkedin.com/in/mokairy" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Visit Meshal's LinkedIn profile">
+          <img src="./resources/linkedin.svg" alt="" role="presentation" />
+        </a>
+        <a href="mailto:your.email@example.com" class="social-link" aria-label="Send email to Meshal">
+          <img src="./resources/email.svg" alt="" role="presentation" />
+        </a>
+        <a href="tel:+966555555555" class="social-link" aria-label="Call Meshal">
+          <img src="./resources/phone.svg" alt="" role="presentation" />
+        </a>
+      </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar-nav" aria-label="Page sections">
+      <h2>Quick Navigation</h2>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#professional-experience">Professional Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-content" class="main-content">
+      <!-- Page Title -->
+      <h1 class="page-title">Meshal Okairy - IT Student</h1>
+
+      <!-- About Me Section -->
+      <section id="about-me" class="content-card">
+        <h2>About Me</h2>
+        <p>
+          A dedicated and detail-oriented IT student with a passion for software
+          development, database management, and UI/UX design. Proficient in Java
+          and SQL, with hands-on experience in designing and implementing
+          inventory systems, databases, and user interfaces. Strong
+          problem-solving skills and a keen interest in network design and
+          human-computer interaction. Always eager to learn and apply new
+          technologies to real-world projects.
+        </p>
+      </section>
+
+      <!-- Professional Experience Section -->
+      <section id="professional-experience" class="content-card">
+        <h2>Professional Experience</h2>
+        <article class="experience-item">
+          <h3>Internship - Linux Administration</h3>
+          <ul>
+            <li>
+              Acquired practical expertise in Linux system administration, Bash
+              scripting, and High-Performance Computing (HPC) cluster management.
+            </li>
+            <li>
+              Managed PBS-based job scheduling and developed automation tools for
+              effective cluster deployment and monitoring.
+            </li>
+            <li>
+              Managed the installation and configuration of multiple Linux
+              distributions, optimized system automation tasks, and set up both
+              storage and network configurations.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="content-card">
+        <h2>Education</h2>
+        <div class="education-item">
+          <p class="degree">Bachelor's Degree - Information Technology (KAU)</p>
+          <p class="duration">2022 - Present</p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="content-card">
+        <h2>Projects</h2>
+        
+        <article class="project-item">
+          <h3>
+            <a
+              href="https://github.com/MOKAIRY/HPC-node-setup.git"
+              class="btn btn-primary btn-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Cluster Node Setup Automation</a>
+          </h3>
+          <p>
+            Developed Bash scripts to automatically configure new HPC cluster
+            nodes, including package installation, user synchronization, network
+            setup, PBS configuration, and shared storage mounting.
+          </p>
+        </article>
+
+        <article class="project-item">
+          <h3>
+            <a
+              href="https://github.com/MOKAIRY/HPC-node-Info.git"
+              class="btn btn-primary btn-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Node Health Monitoring Tool</a>
+          </h3>
+          <p>
+            Created monitoring scripts to track CPU, memory, disk usage, service
+            status, and hardware health across multiple nodes, with automated
+            reporting.
+          </p>
+        </article>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="content-card">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-column">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>HPC Cluster Designing</li>
+              <li>
+                Programming
+                <ul>
+                  <li>Java</li>
+                  <li>Bash Scripting</li>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>Web Application</li>
+                </ul>
+              </li>
+              <li>Networking</li>
+              <li>Automation</li>
+              <li>Virtualization</li>
+            </ul>
+          </div>
+          <div class="skills-column">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Communication Skills</li>
+              <li>Problem-Solving</li>
+              <li>Critical Thinking</li>
+              <li>Leadership & Mentorship</li>
+              <li>Collaboration & Teamwork</li>
+              <li>Adaptability & Continuous Learning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 Meshal Okairy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
