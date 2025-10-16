@@ -272,7 +272,7 @@ body {
   background: var(--color-bg-card);
   padding: var(--spacing-xl);
   margin-bottom: var(--spacing-xl);
-  border-radius: var(--radius-);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
   border: 1px solid var(--color-border);
   transition: var(--transition-base);
@@ -305,6 +305,10 @@ h1 {
   border-bottom: 3px solid var(--color-primary);
   padding-bottom: var(--spacing-sm);
   display: inline-block;
+}
+
+h2::first-letter{
+  color: var(--color-text);
 }
 
 h2 {
@@ -462,8 +466,16 @@ tbody tr {
   transition: background 0.3s ease;
 }
 
-tbody tr:hover {
+tbody tr:nth-child(odd):hover {
   background: rgba(74, 144, 226, 0.1);
+}
+
+tbody tr:nth-child(even):hover {
+  background: rgba(109, 74, 226, 0.1);
+}
+
+.took-courses tr:nth-child(even){
+  background-color: #1b1e23;
 }
 
 tbody tr:last-child {
@@ -854,7 +866,6 @@ legend {
   /* Tables - Make them scrollable on small screens */
   .table-container {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   table {
